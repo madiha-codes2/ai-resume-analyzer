@@ -4,6 +4,14 @@
 * @returns A formatted string with the appropriate unit
 */
 
+import type { ClassValue } from "clsx";
+import clsx from "clsx";
+import { twMerge } from "tailwind-merge";
+
+export function cn(...inputs: ClassValue[]) {
+    return twMerge(clsx(inputs))
+}
+
 export function formatSize(bytes: number): string {
     if (bytes === 0) return '0 Bytes';
 
