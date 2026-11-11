@@ -31,10 +31,9 @@ Resumind allows users to upload their resumes and receive AI-powered analysis, f
 
 ## Live Demo
 
-**[Try Resumind]**
+- **Resumind**: https://ai-resume-analyzer-x97x-3ggsr.puter.site/
 
 **Note:** Resumind uses Puter.js for AI functionality and file storage. Users need to sign in or create a Puter account to access these features.
 
 ## Author
-
 **Madiha Shaikh**
