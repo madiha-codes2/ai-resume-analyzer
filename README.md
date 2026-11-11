@@ -1,87 +1,40 @@
-# Welcome to React Router!
+# Resumind – AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An AI-powered resume analysis application that helps users evaluate their resumes and receive AI-generated feedback to improve their job applications.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## Overview
+
+Resumind allows users to upload their resumes and receive AI-powered analysis, feedback, and resume scores. It provides an interface to review uploaded resumes and track their analysis results.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- **Resume Upload:** Upload resumes for AI-powered analysis.
+- **AI Feedback:** Generate resume feedback using Puter.js AI capabilities.
+- **Resume Scoring:** Display overall resume scores and evaluation feedback.
+- **Resume Preview:** View uploaded resumes within the application.
+- **Application Management:** Store and manage resume analysis data.
+- **Responsive Interface:** User-friendly interface with modern styling.
 
-## Getting Started
+## Tech Stack
 
-### Installation
+- **Frontend:** React, TypeScript, Tailwind CSS
+- **Routing:** React Router
+- **AI Integration:** Puter.js
+- **PDF Processing:** PDF.js
+- **State Management:** Zustand
 
-Install the dependencies:
+## Future Improvements
 
-```bash
-npm install
-```
+- Add more detailed resume evaluation criteria.
+- Improve feedback categorization.
+- Introduce additional resume analysis features.
 
-### Development
+## Live Demo
 
-Start the development server with HMR:
+**[Try Resumind]**
 
-```bash
-npm run dev
-```
+**Note:** Resumind uses Puter.js for AI functionality and file storage. Users need to sign in or create a Puter account to access these features.
 
-Your application will be available at `http://localhost:5173`.
+## Author
 
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+**Madiha Shaikh**
